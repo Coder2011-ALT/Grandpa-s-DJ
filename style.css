@@ -1,0 +1,30 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body::before {
+  content: " ";
+  position: absolute;
+  background-image: url("assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.heading {
+  border-radius: 20px;
+  box-shadow: 7px 7px 7px aquamarine;
+}
+
+canvas {
+  border: 2px dashed purple;
+  box-shadow: 2px 2px 2px grey;
+}
